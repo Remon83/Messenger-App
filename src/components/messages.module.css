@@ -1,0 +1,41 @@
+.msgWrapper {
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: flex-end;
+}
+.msgWrapper img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.msgData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+  background-color: #fff;
+  border-radius: 10px 10px 10px 0;
+  padding: 7px;
+  font-size: 14px;
+}
+.msgData .msgBody {
+  color: black;
+}
+.msgData .msgName {
+  font-weight: 500;
+  color: #2b4444;
+}
+.left {
+  float: left;
+  margin-left: 15px;
+  clear: both;
+}
+.right {
+  float: right;
+  margin-right: 15px;
+  clear: both;
+}

@@ -1,0 +1,96 @@
+.contactSideBar {
+  color: white;
+  background-color: #4145593b;
+  /* width: 25%; */
+  height: 100vh;
+  /* border-left: 1px solid #000; */
+  flex: 0.75;
+  /* padding-left: 5px; */
+}
+/* .contactSideBar .contacts {
+  padding: 0 15px;
+} */
+.contactSideBar .currUser img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.contactSideBar .contacts .contact {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.contactSideBar .contacts .contact:hover {
+  background-color: rgb(150, 160, 160);
+  width: 100;
+}
+.contactSideBar .contacts .contact img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.contactSideBar .contacts .contact .chatUserInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.currUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.currUser p {
+  /* background-color: rgb(114 117 146); */
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  height: 50px;
+}
+.contactSideBar .currUserContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  background-color: rgb(40, 47, 116);
+}
+
+.contactSideBar .currUserContainer button {
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  width: max-content;
+  margin-right: 10px;
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  .contactSideBar {
+    color: white;
+    background-color: #4145593b;
+    width: 40%;
+    height: 100vh;
+  }
+  .contactSideBar .currUserContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    background-color: rgb(40, 47, 116);
+  }
+  .contactSideBar .currUserContainer button {
+    padding: 4px 12px;
+    margin-bottom: 5px;
+  }
+}

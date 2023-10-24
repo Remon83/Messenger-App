@@ -1,0 +1,63 @@
+.welcome {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #cfcfe289; */
+  /* width: 400px; */
+  /* height: 50vh; */
+  border-radius: 6px;
+}
+
+.loginContainer {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.27);
+}
+.loginContainer input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.loginContainer button {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #64b4f6f8;
+  color: #fff;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.loginContainer .googleBtn {
+  background-color: #333333d1;
+  position: relative;
+}
+
+.loginContainer .googleBtn img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.loginContainer span {
+  color: #333;
+  font-size: 12px;
+}
+.loginContainer .signup {
+  color: #64b5f6;
+  cursor: pointer;
+}

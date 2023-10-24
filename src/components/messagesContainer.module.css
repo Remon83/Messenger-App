@@ -1,0 +1,19 @@
+.messagesContainer {
+  /* background-color: blue; */
+  /* width: 75%; */
+  /* right: 0; */
+  /* position: absolute; */
+  height: 100vh;
+  /* height: 100vh; */
+  flex: 2;
+  overflow: scroll;
+}
+.peerInfo {
+  background-color: rgb(40, 47, 116);
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  height: 50px;
+  height: 55px;
+}
